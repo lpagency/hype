@@ -11,8 +11,8 @@ $(document).ready(function()
             'https://pay.loadingplay.com',
             'https://pay.loadingplay.com/',
             'https://pay.loadingplay.com');
-        var app_public = $.environmentVar(78,78,78);
-        var site_name = $.environmentVar('LP_hype', 'LP_hype', 'LP_hype');
+        var app_public = $.environmentVar(79,79,79);
+        var site_name = $.environmentVar('hype', 'hype', 'hype');
 
     // functions 
     // productos relacionados
