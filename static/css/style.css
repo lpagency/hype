@@ -63,12 +63,12 @@ div.image-upload {
 }
 
 #lapimport .affix {
-    background: #fff !important;
+    background: #f1f1f1 !important;
 }
 
 
 header.fixtop {
-    background:#fff;
+    background:#f1f1f1;
     position:fixed;
     z-index: 9999;
     top: 0%;
