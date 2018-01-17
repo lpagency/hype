@@ -102,7 +102,7 @@ $(document).ready(function(){
 
 <section>
     <!-- <div class="row"> -->
-    <div class="container">
+    <div class="container mg-b5">
         <div class="col-md-12">
           <div align="center">
             <div class="bajada text-center {{editabletext}}" text-id="{{ site.name + '_baj_li_hi' }}"> {{ read_text(site.name +  '_baj_li_hi') }} </div>
@@ -112,86 +112,6 @@ $(document).ready(function(){
    <!--  </div> -->
 
 </section>
-
-
-<section>
-    <!-- *articulos* -->
-
-     <div class="container">
-      <!--   <div class="row"> -->
-          {{ getArticleList(limit=1, html="page/article_home.html", tag='historia,posicion 1') }}
-          {{ getArticleList(limit=1, html="page/article_home.html", tag='historia,posicion 2') }}
-          {{ getArticleList(limit=1, html="page/article_home.html", tag='historia,posicion 3') }}
-          {{ getArticleList(limit=1, html="page/article_home.html", tag='historia,posicion 4') }}
-        <!-- </div> -->
-    </div>
-  
-</section>
-
-
-<!-- 
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-xs-12">
-                <img class="img-responsive img-1" src="https://7static.loadingplay.com/static/images/19729ec1fa62f98c3fe0454154017acb_skinface.png">
-                <p class="inf">contenido</p>
-            </div>
-            <div class="col-md-6 col-xs-12">
-                <img class="img-responsive img-2" src="https://7static.loadingplay.com/static/images/19729ec1fa62f98c3fe0454154017acb_skinface.png">
-                <p class="inf">contenido</p>
-            </div>
-            <div class="col-md-3 col-xs-12">
-                <img class="img-responsive img-3" src="https://7static.loadingplay.com/static/images/19729ec1fa62f98c3fe0454154017acb_skinface.png">
-                <p class="inf2">contenido</p>
-            </div>
-             <div class="col-md-3 col-xs-12">
-                <img class="img-responsive img-3" src="https://7static.loadingplay.com/static/images/19729ec1fa62f98c3fe0454154017acb_skinface.png">
-                <p class="inf2">contenido</p>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<!-- <section>
-
-        <div class="col-md-12">
-            <div class="bajada-2 text-center {{editabletext}}" text-id="{{ site.name + '_baj_li_2' }}"> {{ read_text(site.name +  '_baj_li_2') }} </div>
-        </div>
-
-
-</section> -->
-
-
-<section id="contenedor">
-    <div class="container">
-        <div class="row spa article_list">
-           {{ getArticleList(tag='historia,-posicion 1,-posicion 2,-posicion 3,-posicion 4') }}
-        </div>
-    </div>
-
-</section>
-
-<section>
-   <div align="center">
-      <div class="fin-art text-center {{editabletext}}" text-id="{{ site.name + '_art_hi' }}"> {{ read_text(site.name +  '_art_hi') }}</div>
-      <hr class="len">
-      <div class="fin-art-2 text-center {{editabletext}}" text-id="{{ site.name + '_art_2_hi' }}"> {{ read_text(site.name +  '_art_2_hi') }}</div>
-   </div>
-</section>
-
-<!--
-<section>
-    <div class="row">
-       <div align="center">
-            <div class="col-md-12 col-xs-12">
-                <a href="#">
-                <button type="button" class="btn btn-cargar">Cargar más contenido </button>
-                </a>
-            </div>
-       </div>
-</section>
--->
 
 
 
