@@ -119,9 +119,6 @@
                             <!-- </div> -->
                             <div class="col-sm-12 especial p-art" style="text-align: right;">
                             </div>
-                            <div class="col-sm-12 p-art ">
-                                tags | <a>{{ "</a> , <a>".join(article["tags"]) }}</a>
-                            </div>
                         </div>
                 </div>
                 <div class="col-sm-3 blog-sidebar">
@@ -134,21 +131,6 @@
             <!-- row 4 -->
         </div>
 
-    <div id="contenedor" class="container-fluid productlist">
-            <article>
-                <header>
-                    <h1 class="h1-art especial text-center" >Contenido relacionado a este articulo</h1>
-                </header>
-            </article>
-            <div class="row cont-rel">
-                {{ getRelatedArticles(article["id"]) }}
-            </div>
-     </div>
-
-        <div  class="carritoproductos clearfix">
-            <div class="flecha clearfix">
-            </div>
-        </div>
  
 
 {% include '../home/footer.html' %}
